@@ -250,7 +250,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/sclorg/nodejs-ex.git"
+      "value": "https://github.com/rrredbeard/nodejs-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
@@ -273,7 +273,8 @@
       "displayName": "GitHub Webhook Secret",
       "description": "Github trigger secret.  A difficult to guess string encoded as part of the webhook URL.  Not encrypted.",
       "generate": "expression",
-      "from": "[a-zA-Z0-9]{40}"
+      "from": "[a-zA-Z0-9]{40}",
+      "value": "veryverysecret"
     },
     {
       "name": "GENERIC_WEBHOOK_SECRET",
